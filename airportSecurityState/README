@@ -1,0 +1,15 @@
+Name : Manav Panchal
+Bnum : B00664640
+
+Took reference from Book Head First Java.
+
+To compile : ant -buildfile src/build.xml all
+
+
+To Run     : ant -buildfile src/build.xml run -Darg0=/import/linux1/home1/mpancha1/Mpancha1_Fall_17/input.txt -Darg1=/import/linux1/home1/mpancha1/Mpancha1_Fall_17/output.txt -Darg2=4
+
+1st arg : Input_file path
+2nd arg : Output_file path
+3rd arg : Debug Value 
+
+Calculated Avg_Traffic_per_day and Avg_Prohibited_Item_per_day at every line and according to that setting states.

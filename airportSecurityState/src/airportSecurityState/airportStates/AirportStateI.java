@@ -1,8 +1,8 @@
-package manav_panchal_assign_3;
+package airportSecurityState.airportStates;
 
 public interface AirportStateI {
 
-	public void tightenOrLoosenSecurity();
-	//public void loosenSecurity();
-	public void securityOperations();
+	public void tightenOrLoosenSecurity(String line);
+	public String securityOperations();
+	
 }

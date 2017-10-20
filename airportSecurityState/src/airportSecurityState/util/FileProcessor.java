@@ -1,4 +1,4 @@
-package manav_panchal_assign_3;
+package airportSecurityState.util;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,7 +11,8 @@ public class FileProcessor {
 	BufferedReader br;
 	FileReader in;
 	public FileProcessor(String file_name){
-		
+	
+	MyLogger.writeMessage("Making File Processor", MyLogger.DebugLevel.CONSTRUCTOR);
 		try {
 			in = new FileReader(file_name);
 			br = new BufferedReader(in);
